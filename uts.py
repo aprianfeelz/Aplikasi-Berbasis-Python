@@ -36,9 +36,9 @@ while True:
         continue
     print ('-------------------------------------------------------')
     print (nama)
-    print ('Mahasiswa jurusan %s dan angkatan tahun %s'%(jur,ang))
+    print ('Mahasiswa Jurusan %s dan Angkatan Tahun %s'%(jur,ang))
     lagi=''
     while lagi!='y' and lagi!='t':
-        lagi=input('Coba lagi [y/t]? ')
+        lagi=input('Coba Lagi [y/t]? ')
     if lagi=='t':
         break
